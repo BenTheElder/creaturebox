@@ -1,0 +1,101 @@
+{
+	"ImportPath": "github.com/BenTheElder/creaturebox",
+	"GoVersion": "go1.5",
+	"Deps": [
+		{
+			"ImportPath": "github.com/golang/freetype/raster",
+			"Comment": "release-120-gf29eb11",
+			"Rev": "f29eb116deb328d02ee5c573f02d442ca67d5532"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/truetype",
+			"Comment": "release-120-gf29eb11",
+			"Rev": "f29eb116deb328d02ee5c573f02d442ca67d5532"
+		},
+		{
+			"ImportPath": "github.com/llgcode/draw2d",
+			"Comment": "v1-65-g9ffe0e7",
+			"Rev": "9ffe0e7eb54c1b3d28eb45a24b578dc2d1bdb6b3"
+		},
+		{
+			"ImportPath": "golang.org/x/exp/shiny/driver/gldriver",
+			"Rev": "d32b4cf3c6702c6ec9cddab4df6f306f09438dd3"
+		},
+		{
+			"ImportPath": "golang.org/x/exp/shiny/driver/internal/errscreen",
+			"Rev": "d32b4cf3c6702c6ec9cddab4df6f306f09438dd3"
+		},
+		{
+			"ImportPath": "golang.org/x/exp/shiny/driver/internal/pump",
+			"Rev": "d32b4cf3c6702c6ec9cddab4df6f306f09438dd3"
+		},
+		{
+			"ImportPath": "golang.org/x/exp/shiny/driver/internal/x11key",
+			"Rev": "d32b4cf3c6702c6ec9cddab4df6f306f09438dd3"
+		},
+		{
+			"ImportPath": "golang.org/x/exp/shiny/screen",
+			"Rev": "d32b4cf3c6702c6ec9cddab4df6f306f09438dd3"
+		},
+		{
+			"ImportPath": "golang.org/x/image/font",
+			"Rev": "baddd3465a05d84a6d8d3507547a91cb188c81ea"
+		},
+		{
+			"ImportPath": "golang.org/x/image/math/f64",
+			"Rev": "baddd3465a05d84a6d8d3507547a91cb188c81ea"
+		},
+		{
+			"ImportPath": "golang.org/x/image/math/fixed",
+			"Rev": "baddd3465a05d84a6d8d3507547a91cb188c81ea"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/app",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/event/key",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/event/lifecycle",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/event/mouse",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/event/paint",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/event/size",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/event/touch",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/exp/f32",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/exp/gl/glutil",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/geom",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/gl",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		},
+		{
+			"ImportPath": "golang.org/x/mobile/internal/mobileinit",
+			"Rev": "4f51fe273b7361f36782e206b4e85443e5b0cba3"
+		}
+	]
+}
