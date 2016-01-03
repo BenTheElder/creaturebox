@@ -1,6 +1,8 @@
 ## CreatureBox
-CreatureBox is a simple evolutionary obstacle avoidance demo inspired by [studio otoro](otoro.net)'s [creatures avoiding planks](http://blog.otoro.net/2015/05/07/creatures-avoiding-planks/).
+CreatureBox is a simple evolutionary obstacle avoidance demo inspired by [studio otoro](http://otoro.net)'s [creatures avoiding planks](http://blog.otoro.net/2015/05/07/creatures-avoiding-planks/).
 I wanted to build something similar for fun and try out golang's [Go mobile](https://github.com/golang/mobile) project as well; this is the result. CreatureBox should work on Windows, OS X, Linux, Android, and iOS but has only been tested on OS X El Capitan and Android Marshmallow.
+
+You can now read more about it on [my blog post](https://bentheelder.github.io/blog/creaturebox.html)  if you like.
 
 CreatureBox on OS X:
 
@@ -20,7 +22,7 @@ The design of the simulation itself is very similar to the creatures avoiding pl
 A number of moving obstacles will spawn with random settings throughout the simulation for the creatures to avoid, touching one or the edge of the simulation will "kill" the creature.
 
 ###### "Brains"
-Each creature has a fully connected two layer (input and output) neural network. Most of the outputs are recurrent like the [studio otoro](otoro.net) demo.
+Each creature has a fully connected two layer (input and output) neural network. Most of the outputs are recurrent like the [studio otoro](http://otoro.net) demo.
 Each creature receives a number of "distance to edge or obstacle" inputs in evenly distributed directions about them as well as the previous output for the recurrent nodes, and produces a turn and move output used for turning left/right and moving forward/backwards every frame. These are then scaled, and applied. You can see which way a creature is facing by the white dot drawn on them towards their current "forward" direction.
 
 ###### Evolution
